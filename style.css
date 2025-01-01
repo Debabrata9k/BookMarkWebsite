@@ -1,0 +1,15 @@
+.rounded-link {
+    display: inline-block; /* Makes the link behave like a block for proper sizing */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none; /* Removes underline from the link */
+    border-radius: 10px; /* Rounds the corners */
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .rounded-link:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+  }
